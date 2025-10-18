@@ -145,3 +145,70 @@ body {
   color: #fff;
   border-color: #2e8b57;
 }
+
+/* ========================= */
+/* 📱 MEDIA QUERY (Mobile)  */
+/* ========================= */
+@media (max-width: 768px) {
+  .page-header {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .page-header h1 {
+    font-size: 20px;
+  }
+
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  .content {
+    flex-direction: column; /* sidebar di atas, list di bawah */
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .search-bar input {
+    padding: 10px;
+  }
+
+  .filter label {
+    font-size: 14px;
+  }
+
+  .community-list {
+    width: 100%;
+  }
+
+  .community-card {
+    flex-direction: column; /* gambar di atas, teks di bawah */
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .community-card img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .join-btn {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .community-info h4 {
+    font-size: 16px;
+  }
+
+  .community-info p {
+    font-size: 13px;
+  }
+}
